@@ -26,7 +26,6 @@ export async function getArticles() {
 
 const ArticlesPage = async () => {
   const articles = await getArticles();
-  console.log("articles", articles);
   return (
     <div className="content-container">
       <h2>Articles</h2>
