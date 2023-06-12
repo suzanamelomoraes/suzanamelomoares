@@ -1,5 +1,4 @@
 import Link from "next/link";
-import { resolve } from "path";
 import { FaStar, FaCodeBranch, FaEye } from "react-icons/fa";
 
 export const metadata = {
