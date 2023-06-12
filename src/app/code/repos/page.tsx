@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { FaStar, FaCodeBranch, FaEye } from "react-icons/fa";
 
+export const metadata = {
+  title: "Suzana&apos;s Repositories",
+};
+
 export type IRepo = {
   id: number;
   name: string;
@@ -23,15 +27,15 @@ export async function getRepos() {
 const ReposPage = async () => {
   const repos = await getRepos();
   return (
-    <div className="repos-container">
+    <div className="content-container">
       <h2>Repositories</h2>
-      <ul className="repo-list">
+      <ul className="content-list">
         {repos?.map((repo: IRepo) => (
           <li key={repo.id}>
             <Link href={`/code/repos/${repo.name}`}>
               <h3>{repo.name}</h3>
               <p>{repo.description}</p>
-              <div className="repo-details">
+              <div className="content-details">
                 <span>
                   <FaStar /> {repo.stargazers_count}
                 </span>
