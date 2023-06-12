@@ -1,18 +1,19 @@
 import Link from "next/link";
+import { resolve } from "path";
 import { FaStar, FaCodeBranch, FaEye } from "react-icons/fa";
 
 export const metadata = {
   title: "Suzana&apos;s Repositories",
 };
 
-export type IRepo = {
+export interface IRepo {
   id: number;
   name: string;
   description: string;
   stargazers_count: number;
   forks_count: number;
   watchers_count: number;
-};
+}
 
 export async function getRepos() {
   const response = await fetch(
