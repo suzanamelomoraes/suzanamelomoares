@@ -5,14 +5,14 @@ export const metadata = {
   title: "Suzana&apos;s Articles",
 };
 
-export type IArticle = {
+export interface IArticle {
   id: number;
   title: string;
   description: string;
   public_reactions_count: number;
   readable_publish_date: string;
   path: string;
-};
+}
 
 export async function getArticles() {
   const response = await fetch(
@@ -32,7 +32,7 @@ const ArticlesPage = async () => {
       <ul className="content-list">
         {articles?.map((article: IArticle) => (
           <li key={article.id}>
-            <Link href={`https://dev.to${article.path}`}>
+            <Link target="_blank" href={`https://dev.to${article.path}`}>
               <h3>{article.title}</h3>
               <p>{article.description}</p>
               <div className="content-details">
