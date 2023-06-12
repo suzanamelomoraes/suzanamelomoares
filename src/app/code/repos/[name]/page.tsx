@@ -1,3 +1,6 @@
+import Repo from "@/app/components/Repo";
+import Link from "next/link";
+
 export interface IParams {
   params: {
     name: string;
@@ -6,11 +9,12 @@ export interface IParams {
 
 const RepoPage = ({ params: { name } }: IParams) => {
   return (
-    <>
-      {" "}
-      <div className="card">{name}</div>
-      <p>Repo Details</p>
-    </>
+    <div className="card">
+      <Link href="/code/repos" className="btn btn-back">
+        Back to the repositories
+      </Link>
+      <Repo name={name} />
+    </div>
   );
 };
 
