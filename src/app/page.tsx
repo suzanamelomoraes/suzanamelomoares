@@ -1,95 +1,48 @@
-import Image from 'next/image'
-import styles from './page.module.css'
+import Image from "next/image";
 
-export default function Home() {
+const HomePage = () => {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.tsx</code>
-        </p>
+    <div className="card">
+      <div className="card-items">
         <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+          <Image
+            className="image"
+            src="/profile.jpeg"
+            width={500}
+            height={500}
+            alt="Picture of the author"
+          />
+        </div>
+        <div className="text">
+          <h1>About Suzana</h1>
+          <p>
+            Full Stack developer with solid communication and human skills
+            background in a passionate relationship with programming. <br />
+            My knowledge includes JavaScript, React and Node.js. I also have
+            been exposed to React Native, Typescript and GraphQL, and I just
+            started a fantastic journey into AWS.
+            <br />
+            I am an organiser of Auckland AWS tools and Programming and
+            co-organiser of Auckland Cloud Native and Full Stack Dev New
+            Auckland meetup groups and FullStack Day conference. I am also a
+            member of many other tech community projects around NZ.
+            <br />
+            My multi-faceted background includes work experience in journalism,
+            public relations, management, administration and customer service.
+            As a result, I am a good team player with a flexible and resilient
+            mindset and a collaborative attitude. I have also been acknowledged
+            for my ability to work effectively within teams to achieve business
+            outcomes.
+            <br />
+            Quick learning, problem-solving, handling difficult situations and
+            having a strong passion for learning and love for everything I do
+            are some transferable skills I intend to add value to the technology
+            field.
+          </p>
         </div>
       </div>
+    </div>
+  );
+};
 
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore the Next.js 13 playground.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
-  )
-}
+export default HomePage;
