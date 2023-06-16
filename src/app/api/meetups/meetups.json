@@ -1,0 +1,292 @@
+{
+  "Web/Mobile Development": [
+    {
+      "id": 1,
+      "name": "Full Stack Dev Group - Auckland, New Zealand",
+      "link": "https://www.meetup.com/full-stack-dev-new-zealand/",
+      "category": "Web/Mobile Development"
+    },
+    {
+      "id": 2,
+      "name": "Frontend Auckland Meetup",
+      "link": "https://www.meetup.com/frontend-auckland-meetup/",
+      "category": "Web/Mobile Development"
+    },
+    {
+      "id": 3,
+      "name": "Coding Night NZ",
+      "link": "https://www.meetup.com/coding-night-nz/",
+      "category": "Web/Mobile Development"
+    },
+    {
+      "id": 4,
+      "name": "LevelUp Web Development",
+      "link": "https://www.meetup.com/levelup-web-development/",
+      "category": "Web/Mobile Development"
+    },
+    {
+      "id": 5,
+      "name": "Auckland Software Development Group",
+      "link": "https://www.meetup.com/aucklandsoftware/",
+      "category": "Web/Mobile Development"
+    },
+    {
+      "id": 6,
+      "name": "Auckland Developers",
+      "link": "https://www.meetup.com/auckland-developers/",
+      "category": "Web/Mobile Development"
+    },
+    {
+      "id": 7,
+      "name": "Auckland IT Pre-juniors Club",
+      "link": "https://www.meetup.com/auckland-it-pre-juniors-club/",
+      "category": "Web/Mobile Development"
+    },
+    {
+      "id": 8,
+      "name": "JuniorDev Auckland",
+      "link": "https://www.meetup.com/juniordev-auckland/",
+      "category": "Web/Mobile Development"
+    },
+    {
+      "id": 9,
+      "name": "GDG Auckland",
+      "link": "https://www.meetup.com/gdgauckland/",
+      "category": "Web/Mobile Development"
+    }
+  ],
+  "Programming languages": [
+    {
+      "id": 10,
+      "name": "GoBridge New Zealand",
+      "link": "https://www.meetup.com/gobridgenz/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 11,
+      "name": "Auckland JS Meetup",
+      "link": "https://www.meetup.com/auckland-js-meetup/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 12,
+      "name": "Auckland ReactJS Meetup",
+      "link": "https://www.meetup.com/reactjs-auckland/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 13,
+      "name": "Auckland React Native",
+      "link": "https://www.meetup.com/auckland-react-native-meetup/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 14,
+      "name": "New Zealand Python User Group - Auckland",
+      "link": "https://www.meetup.com/nzpug-auckland/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 15,
+      "name": "Rust AKL",
+      "link": "https://www.meetup.com/rust-akl/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 16,
+      "name": "Flutter Auckland",
+      "link": "https://www.meetup.com/flutterauckland/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 17,
+      "name": "Auckland .NET User Group",
+      "link": "https://www.meetup.com/akl-net/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 18,
+      "name": "North Shore .NET User Group",
+      "link": "https://www.meetup.com/north-shore-net-user-group/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 19,
+      "name": "The Auckland JVM Group",
+      "link": "https://www.meetup.com/auckland-jug/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 20,
+      "name": "Auckland C++ Meetup",
+      "link": "https://www.meetup.com/auckland-c-meetup/",
+      "category": "Programming languages"
+    },
+    {
+      "id": 21,
+      "name": "AkJS Node.js Meetup",
+      "link": "https://www.meetup.com/AucklandNodeJs/",
+      "category": "Programming languages"
+    }
+  ],
+  "Technology": [
+    {
+      "id": 22,
+      "name": "Women in Tech Meetup Auckland",
+      "link": "https://www.meetup.com/women-in-tech-meetup-auckland/",
+      "category": "Technology"
+    },
+    {
+      "id": 23,
+      "name": "TechTALK",
+      "link": "https://www.meetup.com/techtalknz/",
+      "category": "Technology"
+    },
+    {
+      "id": 24,
+      "name": "Auckland Xero Talks",
+      "link": "https://www.meetup.com/auckland-xero-talks/",
+      "category": "Technology"
+    },
+    {
+      "id": 25,
+      "name": "FinTech Devs",
+      "link": "https://www.meetup.com/meetup-group-jdfdwygg/",
+      "category": "Technology"
+    },
+    {
+      "id": 26,
+      "name": "Functional Programming Auckland",
+      "link": "https://www.meetup.com/functional-programming-auckland/",
+      "category": "Technology"
+    }
+  ],
+  "Cloud/AWS/Google/Azure": [
+    {
+      "id": 27,
+      "name": "Cloud Native Auckland",
+      "link": "https://www.meetup.com/cloud-native-auckland/",
+      "category": "Cloud/AWS/Google/Azure"
+    },
+    {
+      "id": 28,
+      "name": "Cloud Native Integration Auckland",
+      "link": "https://www.meetup.com/cloud-native-integration-auckland/",
+      "category": "Cloud/AWS/Google/Azure"
+    },
+    {
+      "id": 29,
+      "name": "Auckland AWS Tools and Programming",
+      "link": "https://www.meetup.com/auckland-aws-tools-meetup/",
+      "category": "Cloud/AWS/Google/Azure"
+    },
+    {
+      "id": 30,
+      "name": "Auckland AWS Community Meetups",
+      "link": "https://www.meetup.com/aws_nz/",
+      "category": "Cloud/AWS/Google/Azure"
+    },
+    {
+      "id": 31,
+      "name": "GDG Cloud Auckland",
+      "link": "https://www.meetup.com/auckland-google-cloud-meetup/",
+      "category": "Cloud/AWS/Google/Azure"
+    },
+    {
+      "id": 32,
+      "name": "Auckland Microsoft Azure Meetup",
+      "link": "https://www.meetup.com/auckland-microsoft-azure-meetup/",
+      "category": "Cloud/AWS/Google/Azure"
+    },
+    {
+      "id": 33,
+      "name": "Aotearoa Azure Meetup",
+      "link": "https://www.meetup.com/auckland-azure-usergroup/",
+      "category": "Cloud/AWS/Google/Azure"
+    },
+    {
+      "id": 34,
+      "name": "Auckland Azure Lunchtime Meetup",
+      "link": "https://www.meetup.com/auckland-azure-lunchtime-meetup/",
+      "category": "Cloud/AWS/Google/Azure"
+    }
+  ],
+  "Microservices/Containers/DevOps": [
+    {
+      "id": 35,
+      "name": "Auckland API and Microservices Meetup",
+      "link": "https://www.meetup.com/auckland-api-and-microservices-meetup/",
+      "category": "Microservices/Containers/DevOps"
+    },
+    {
+      "id": 36,
+      "name": "Auckland Kubernetes Meetup",
+      "link": "https://www.meetup.com/auckland-kubernetes/",
+      "category": "Microservices/Containers/DevOps"
+    },
+    {
+      "id": 37,
+      "name": "Portainer.io Meetup",
+      "link": "https://www.meetup.com/portainer/",
+      "category": "Microservices/Containers/DevOps"
+    },
+    {
+      "id": 38,
+      "name": "DevOps Auckland",
+      "link": "https://www.meetup.com/devops-auckland/",
+      "category": "Microservices/Containers/DevOps"
+    },
+    {
+      "id": 39,
+      "name": "DevOps Institute SKILup New Zealand",
+      "link": "https://www.meetup.com/devops-institute-skilup-new-zealand/",
+      "category": "Microservices/Containers/DevOps"
+    },
+    {
+      "id": 40,
+      "name": "NZ NetApp User Group",
+      "link": "https://www.meetup.com/nz-nug/",
+      "category": "Microservices/Containers/DevOps"
+    },
+    {
+      "id": 41,
+      "name": "New Zealand HashiCorp User Group",
+      "link": "https://www.meetup.com/new-zealand-hashicorp-user-group/",
+      "category": "Microservices/Containers/DevOps"
+    }
+  ],
+  "Serverless": [
+    {
+      "id": 42,
+      "name": "/serverless/NIGHTS Auckland",
+      "link": "https://www.meetup.com/serverless-auckland/",
+      "category": "Serverless"
+    }
+  ],
+  "Web3/Blockchain": [
+    {
+      "id": 43,
+      "name": "BlockchainNZ Auckland",
+      "link": "https://www.meetup.com/blockchain-auckland/",
+      "category": "Web3/Blockchain"
+    },
+    {
+      "id": 44,
+      "name": "Auckland Cryptocurrency & Blockchain Meetup",
+      "link": "https://www.meetup.com/auckland-cryptocurrency-and-blockchain-meetup/",
+      "category": "Web3/Blockchain"
+    },
+    {
+      "id": 45,
+      "name": "Ethereum Auckland",
+      "link": "https://www.meetup.com/ethereum-auckland/",
+      "category": "Web3/Blockchain"
+    },
+    {
+      "id": 46,
+      "name": "Crypto & DeFi Auckland",
+      "link": "https://www.meetup.com/crypto-and-defi-auckland/",
+      "category": "Web3/Blockchain"
+    }
+  ]
+}
