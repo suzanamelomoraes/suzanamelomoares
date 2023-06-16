@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaStar, FaCodeBranch, FaEye } from "react-icons/fa";
+import { FaStar, FaCodeBranch, FaEye, FaLaptopCode } from "react-icons/fa";
 
 async function getRepo(name: string) {
   const response = await fetch(
@@ -35,6 +35,10 @@ const Repo = async ({ name }: { name: string }) => {
         <div className="card-stat">
           <FaEye />
           <span>{repo.watchers_count}</span>
+        </div>
+        <div className="card-stat">
+          <FaLaptopCode />
+          <span>{repo.language}</span>
         </div>
       </div>
     </>
