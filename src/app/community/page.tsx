@@ -10,7 +10,7 @@ const CommunityPage = () => {
     <div>
       <h1>My tech community </h1>
       <Community />
-      <h1>Some meetups groups in Auckland</h1>
+      <h1>Other great meetups groups in Auckland</h1>
       <Meetups />
     </div>
   );

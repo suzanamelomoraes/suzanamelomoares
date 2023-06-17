@@ -15,11 +15,10 @@ const Meetups = async () => {
     <div className="meetups">
       {meetups.map((meetup: IMeetups) => (
         <div key={meetup.id} className="card">
-          <h2>{meetup.name}</h2>
-          <h3>Category: {meetup.category}</h3>
-          <Link href={meetup.link} target="_blank" className="btn">
-            Go to this Meetup page
+          <Link className="link-title" target="_blank" href={meetup.link}>
+            <h2>{meetup.name}</h2>
           </Link>
+          <h3>Category: {meetup.category}</h3>
         </div>
       ))}
     </div>
