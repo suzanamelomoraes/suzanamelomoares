@@ -1,3 +1,6 @@
+import Meetups from "../components/Meetups";
+import Community from "../components/Community";
+
 export const metadata = {
   title: "Tech Community",
 };
@@ -5,12 +8,10 @@ export const metadata = {
 const CommunityPage = () => {
   return (
     <div>
-      <h1>Tech Community</h1>
-      <p>
-        Meetups I help to organise in New Zealand <br />
-        <br />
-        Tech community in Auckland
-      </p>
+      <h1>My tech community </h1>
+      <Community />
+      <h1>Some meetups groups in Auckland</h1>
+      <Meetups />
     </div>
   );
 };
