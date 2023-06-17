@@ -11,6 +11,7 @@ const HomePage = () => {
             width={500}
             height={500}
             alt="Picture of the author"
+            priority={true}
           />
         </div>
         <div className="text">
