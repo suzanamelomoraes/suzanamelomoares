@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "Auckland AWS Tools and Programming",
+    "link": "https://www.meetup.com/auckland-aws-tools-meetup/",
+    "category": "Cloud/AWS/Google/Azure"
+  },
+  {
+    "id": 2,
+    "name": "Full Stack Dev Group - Auckland, New Zealand",
+    "link": "https://www.meetup.com/full-stack-dev-new-zealand/",
+    "category": "Web/Mobile Development"
+  },
+  {
+    "id": 3,
+    "name": "Cloud Native Auckland",
+    "link": "https://www.meetup.com/cloud-native-auckland/",
+    "category": "Cloud/AWS/Google/Azure"
+  }
+]
