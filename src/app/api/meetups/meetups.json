@@ -298,5 +298,11 @@
     "name": "Auckland Data Engineering Meetup",
     "link": "https://www.meetup.com/auckland-data-engineering/",
     "category": "Data Science/Analytics"
+  },
+  {
+    "id": 51,
+    "name": "Auckland MongoDB User Group",
+    "link": "https://www.meetup.com/auckland-mongodb-meetup-group/",
+    "category": "Databases"
   }
 ]
